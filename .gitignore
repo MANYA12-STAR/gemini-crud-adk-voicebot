@@ -1,0 +1,22 @@
+# === Python ===
+__pycache__/
+*.pyc
+
+# === Virtual environment ===
+venv/
+
+# === Environment Variables ===
+.env
+
+# === Databases ===
+*.db
+
+# === VSCode or IDE config ===
+.vscode/
+.idea/
+
+# === Node modules (frontend) ===
+node_modules/
+
+# === Service Account or Secrets ===
+service-account.json

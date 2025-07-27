@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply bg-white rounded-xl shadow p-6;
+}
+.btn {
+  @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50;
+}
+.input, .textarea, .select {
+  @apply w-full border border-gray-300 rounded px-3 py-2;
+}
+.table {
+  @apply w-full text-sm text-left text-gray-700;
+}
+.mic-btn {
+  @apply flex items-center justify-center w-10 h-10 rounded-full bg-gray-200 hover:bg-gray-300;
+}
+.mic-btn.active {
+  @apply bg-red-500 text-white animate-pulse;
+}
